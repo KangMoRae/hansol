@@ -1,0 +1,229 @@
+@charset "utf-8";
+
+/*웹뷰*/
+.panel,.mcon03Search,.mMaincon04{display:none;}
+
+
+
+@media screen and (max-width:768px){
+    /*웹공통*/
+    body{min-width:auto; /*기초값*/}
+    .inner{width:auto;}
+    
+    /*모바일에서 보임*/
+    .panel,.mcon03Search,.mMaincon04{display:block;}
+    
+    /*모바일에서 안보임*/
+    .gnb,.util,.mainCon02,.mainCon03>div p,.con03Search form,.mainCon03 .con03Search,.mainCon04,.con05List li p,.fLogo,.fInfo{display:none;}
+    
+    /*해더*/
+    #header{
+        height:auto;
+        margin:10px 20px;
+    }
+    #header h1{
+        background-size:400px; /*기존 사이즈의 반토막 사이즈를 입력*/
+        width:70px;    
+        height:28px;
+        background-position:0 0; /*그림의 위치 잡아주기*/
+        position:static; /*앱솔루트로 떠있던 로고를 포지션 기본값으로 가라앉히기*/
+    }
+    .panel{
+        width:16px;
+        height:16px;
+        background:url(../images/sp_com.png) no-repeat -227px -98px;
+        background-size:400px;
+        text-indent:-9999px;
+        position:absolute;
+        right:0;
+        top:50%;    /*세로 중앙정렬*/
+        margin-top:-8px; /*콘텐츠의 세로반값을 빼기, 세로 중앙정렬*/
+        
+    }
+    .panel a{
+        display:block; 
+        height:100%;  /*부모의 세로값을 따라가기*/
+    }
+    
+    /*메인슬라이더*/
+    .mainSlider{
+        margin:0;
+        height:auto;
+    }
+    .mainTxt{
+        padding:45% 0; /*메인슬라이더 세로 크기*/
+    }
+    .mainTxt h2{
+        font-size:14px;
+    }
+    .mainTxt p{
+        font-size:12px;
+    }
+    .sliderBtn{
+        width:13px;
+        height:23px;
+        background-size:400px; 
+        background-position:-64px -30px;
+        margin-top:-11px; /*기존 마진탑의 값인 -22의 반을 빼기*/
+    }
+    .rightBtn{
+        background-position:-79px -30px;
+    }
+    
+    /*메인컨텐츠01*/
+    .mainCon01{
+        padding:20px 0; /*전체 페이지에 패딩값*/
+    }
+    .mainCon01 ul{
+        display:block;   /*ul이 인라인이라서 가로 끝까지 정렬시키기 위해 블락으로 설정*/
+        overflow:hidden; /*cf를 굳이 주지않고 미디어쿼리에서 바로 해제하기*/
+    }
+    .mainCon01 li{
+        font-size:14px;
+        margin:0; 
+        width:33.33%; /*3개로 나누기*/
+        padding:10px 0;
+    }
+    .mainCon01 li span{
+        background-size:400px;
+        width:33px;
+        height:33px;
+        margin:0 auto; /*블락을 가운데정렬*/
+    }
+    .con01Icon01{background-position:-1px -57px;}
+    .con01Icon02{background-position:-37px -57px;}
+    .con01Icon03{background-position:-74px -55px;}
+    .con01Icon04{background-position:-109px -57px;}
+    .con01Icon05{background-position:-145px -57px;}
+    .con01Icon06{background-position:-181px -57px;}
+    
+    .mainCon01 li span:hover{
+        background-position-y:-92px; /*y값만 바꿔주면 호버가 됨*/
+    }
+    
+    
+    /*메인컨텐츠03*/
+    .mainCon03{
+        margin:0 10px;
+    }
+
+    .mainCon03>div{
+        width:calc(50% - 5px);
+        height:auto;
+        margin-right:10px;
+        margin-bottom:10px;
+        background-size:cover;
+    }
+    .mainCon03>div:nth-child(2n){margin-right:0;}
+    .mainCon03>div:last-child{margin-right:0;}
+    .mainCon03>div h3{
+        padding:45% 0;
+        font-size:15px;
+    }
+    .mainCon03 .con03Search h3{
+        padding:45% 0;
+    }
+    .mcon03Search{
+        background-color:#F2F0ED;
+    }
+    
+    
+    /*메인컨텐츠04*/
+    
+    .mMaincon04{
+    }
+    .mMaincon04 dl{
+        background:#f2f0ed;
+        overflow:hidden;
+        margin:0 10px;
+        height:45px;
+        line-height:45px;
+        font-size:13px;
+        margin-bottom:10px;
+    }
+    .mMaincon04 dt{
+        float:left;
+        width:20%;
+        text-align:center;
+        color:#2d5b79;
+        font-weight:bold;
+    }
+    .mMaincon04 dd{
+        float:left;
+        width:75%;
+    }
+    .mMaincon04 dd a{
+        display:block;
+        width:100%;
+        white-space:nowrap;
+        overflow:hidden;
+        text-overflow:ellipsis;
+    }
+    
+    
+    /*메인컨텐츠05*/
+    
+    .mainCon05{
+        padding:20px 10px;
+        padding-bottom:10px;
+    }
+    
+    .con05List li{
+        width:calc(50% - 5px);
+        height:auto;
+        margin-right:10px;
+        margin-bottom:10px;
+        background-size:100% 100%;
+    }
+    
+    .con05List li:nth-child(2n){
+        margin-right:0;
+    }
+    .con05List li h3{
+        padding:70% 0 20% 0;
+        font-size:15px;
+    }
+    
+    
+    /*푸터*/
+    
+    .fMenu{
+        width:100%;
+        text-align:center;
+    }
+    .fMenu li{
+        display:inline-block;
+        float:none;
+        line-height:normal;
+    }
+    .fMenu li:last-child::after{display:none;}
+    
+    
+    .csFamily{
+        width:100%;
+        text-align:center;
+        margin-top:10px;
+    }
+    .csBox, .familyBox{
+        float:none;
+        display:inline-block;
+    }
+    .csBox{
+        width:50%;
+        box-sizing:border-box;
+    }
+    .csBox .num{
+        font-size:13px;
+    }
+    .familyBox{
+        width:30%;
+        margin-left:5px;
+    }
+    .fBottom{
+        padding:30px 0;
+    }
+    .fBottom p{
+        margin:0;
+    }
+}
+
