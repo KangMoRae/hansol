@@ -1,551 +1,421 @@
 <!DOCTYPE html>
 <html lang="ko">
-    <head>
-        <meta charset="utf-8">
-        <!--메타 뷰포트-->
-        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
-        <!--메타 뷰포트-->
-        <title>한솔</title>
-        
-        <!-- Chrome, Safari, IE -->
-        <link rel="shortcut icon" href="path/to/favicon.ico">
-        
-        <!-- Firefox, Opera (Chrome and Safari say thanks but no thanks) -->
-        <link rel="icon" href="path/to/favicon.png">
-        
-        <!--폰트링크-->
-        <link rel="stylesheet" type="text/css" href="font/fonts.css">
-        <!--폰트링크-->
-        
-        <link rel="stylesheet" type="text/css" href="css/default.css">
-        <link rel="stylesheet" type="text/css" href="css/include.css">
-        <link rel="stylesheet" type="text/css" href="css/main.css">
-        <!--미디어쿼리-->
-        <link rel="stylesheet" type="text/css" href="css/media.css">
-        <!--미디어쿼리-->
-    </head>
-    <body>
-        <!--전체-->
-        <div class="wrap">
-            <!--해더-->
-            <header id="header">
-                <!--로고-->
-                <h1><a href="#">로고</a></h1>
-                <!--로고-->
-                
-                <!--gnb-->
-                <ul class="gnb">
-                    <li>
-                    <a href="#">제품정보</a>
-                      <!--lnb-->
-                      <ul class="lnb">
-                        <li><a href="#">서브메뉴1</a></li>
-                        <li><a href="#">서브메뉴2</a></li>
-                        <li><a href="#">서브메뉴3</a></li>
-                        <li><a href="#">서브메뉴4</a></li>
-                      </ul>
-                      <!--lnb-->
-                    </li>
-                    <li>
-                    <a href="#">시공사례</a>
-                    <!--lnb-->
-                      <ul class="lnb">
-                        <li><a href="#">서브메뉴1</a></li>
-                        <li><a href="#">서브메뉴2</a></li>
-                      </ul>
-                      <!--lnb-->
-                    </li>
-                    <li>
-                    <a href="#">고객센터</a>
-                    <!--lnb-->
-                      <ul class="lnb">
-                        <li><a href="#">서브메뉴1</a></li>
-                      </ul>
-                      <!--lnb-->
-                    </li>
-                    <li><a href="#">기업소개</a>
-                    <!--lnb-->
-                      <ul class="lnb">
-                        <li><a href="#">서브메뉴1</a></li>
-                        <li><a href="#">서브메뉴2</a></li>
-                        <li><a href="#">서브메뉴3</a></li>
-                        <li><a href="#">서브메뉴4</a></li>
-                        <li><a href="#">서브메뉴5</a></li>
-                        <li><a href="#">서브메뉴6</a></li>
-                      </ul>
-                      <!--lnb-->
-                    </li>
-                    <li>
-                    <a href="#">사업분야</a>
-                    <!--lnb-->
-                      <ul class="lnb">
-                        <li><a href="#">서브메뉴1</a></li>
-                        <li><a href="#">서브메뉴2</a></li>
-                        <li><a href="#">서브메뉴3</a></li>
-                        <li><a href="#">서브메뉴4</a></li>
-                        <li><a href="#">서브메뉴5</a></li>
-                        <li><a href="#">서브메뉴6</a></li>
-                        <li><a href="#">서브메뉴7</a></li>
-                        <li><a href="#">서브메뉴8</a></li>
-                      </ul>
-                      <!--lnb-->
-                    </li>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content=""/>
+    <meta name="keyword" content="" />
+    <title>웹디자이너 강모래</title>
+
+    <link rel="icon" type="image/svg+xml" href="img/" />
+    <link rel="stylesheet" href="css/style2.css" />
+
+</head>
+    
+
+<body>
+
+    <header id="header" role="banner">
+        <div class="header__inner">
+            <div class="header__logo">
+                <h1>
+                    <a href="#">portfolio<em>kang morae</em></a>
+                </h1>
+            </div>
+            <nav class="header__nav" role="navigation" aria-label="메인 메뉴">
+                <ul>
+                    <li><a href="#intro">intro</a></li>
+                    <li><a href="#skill">skill</a></li>
+                    <li><a href="#site">site</a></li>
+                    <li><a href="#port">portfolio</a></li>
+                    <li><a href="#contact">contact</a></li>
                 </ul>
-                <!--gnb-->
-                
-                <!--util-->
-                <ul class="util">
-                    <li><a href="#">제품찾기</a></li>
-                    <li><a href="#">SITEMAP</a></li>
-                    <li><a href="#">BLOG</a></li>
-                </ul>
-                <!--util-->
-                
-                <!--모바일패널-->
-                <div class="panel">
-                    <a href="#">
-                        <span>모바일패널</span>
-                    </a>
-                </div>
-                <!--모바일패널-->
-                
-            </header>
-            <!--해더-->
-            
-            <!--컨테이너-->
-            <div id="container">
-                <!--메인슬라이더-->
-                <div class="mainSlider">
-                    <!--메인텍스트-->
-                    <div class="mainTxt">
-                        <h2>가구 소재에서<span>인테리어 자재까지</span></h2>
-                        <p>한솔 홈데코가 편리하고 행복한 공간을 만들어 갑니다.</p>
-                    </div>
-                    <!--메인텍스트-->
-                    
-                    <!--메인슬라이더버튼-->
-                    <div class="sliderBtn leftBtn">
-                        <a href="#">왼쪽버튼</a>
-                    </div>
-                    <div class="sliderBtn rightBtn">
-                        <a href="#">오른쪽버튼</a>
-                    </div>
-                    <!--메인슬라이더버튼-->
-                </div>
-                <!--메인슬라이더-->
-                
-                <!--메인컨텐츠01-->
-                <div class="mainCon01">
-                    <ul>
-                        <!--바닥재-->
-                        <li>
-                            <a href="#">
-                                <span class="con01Icon01">바닥재아이콘</span>
-                                <p>바닥재</p>
-                            </a>
-                        </li>
-                        <!--바닥재-->
-                        
-                        <!--벽면재-->
-                        <li>
-                            <a href="#">
-                                <span class="con01Icon02">벽면제아이콘</span>
-                                <p>벽면제</p>
-                            </a>
-                        </li>
-                        <!--벽면제-->
-                        
-                        <!--도어재-->
-                        <li>
-                            <a href="#">
-                                <span class="con01Icon03">도어재아이콘</span>
-                                <p>도어재</p>
-                            </a>
-                        </li>
-                        <!--도어재-->
-                        
-                        <!--몰딩재-->
-                        <li>
-                            <a href="#">
-                                <span class="con01Icon04">몰딩재아이콘</span>
-                                <p>몰딩재</p>
-                            </a>
-                        </li>
-                        <!--몰딩재-->
-                        
-                        <!--시트재-->
-                        <li>
-                            <a href="#">
-                                <span class="con01Icon05">시트재아이콘</span>
-                                <p>시트재</p>
-                            </a>
-                        </li>
-                        <!--시트재-->
-                        
-                        <!--가구재-->
-                        <li>
-                            <a href="#">
-                                <span class="con01Icon06">가구재아이콘</span>
-                                <p>가구재</p>
-                            </a>
-                        </li>
-                        <!--가구재-->
-                    </ul>
-                </div>
-                <!--메인컨텐츠01-->
-                
-                <!--메인컨텐츠02-->
-                <div class="mainCon02">
-                    <div class="inner">
-                        <!--한솔매거진타이틀-->
-                        <div class="con02Tit">
-                            <h2>한솔매거진</h2>
-                            <p>한솔홈데코의 다양한 제품을 만나보세요.</p>
-                        </div>
-                        <!--한솔매거진타이틀-->
-                        
-                        <!--한솔매거진컨텐츠-->
-                        <div class="con02Con cf">
-                            <!--메인슬라이더버튼-->
-                            <div class="sliderBtn leftBtn">
-                                <a href="#">왼쪽버튼</a>
-                            </div>
-                            <div class="sliderBtn rightBtn">
-                                <a href="#">오른쪽버튼</a>
-                            </div>
-                            <!--메인슬라이더버튼-->
-                            
-                            <!--매거진왼쪽-->
-                            <div class="con02Left">
-                                <img src="images/mainrow2_img.jpg" alt="매거진이미지">
-                                <!--텍스트박스-->
-                                <div class="leftText">
-                                    <h4>테마 갤러리</h4>
-                                    <p>SBS월화 드라마<br>
-                                       키스 먼저할까요?<br>
-                                       <span>한솔홈데코 협찬</span>
-                                    </p>
-                                    <p class="lastText">드라마의 주요 세트장에서<br>
-                                    한솔홈데코의 제품을<br>
-                                    확인할 수 있습니다.
-                                    </p>
-                                    
-                                    <!--자세히보기버튼-->
-                                    <div class="moreBtn">
-                                        <a href="#">자세히보기</a>
-                                    </div>
-                                    <!--자세히보기버튼-->
-                                </div>
-                                <!--텍스트박스-->
-                            </div>
-                            <!--매거진왼쪽-->
-                            
-                            
-                            <!--매거진오른쪽-->
-                            <div class="con02Right">
-                                <ul>
-                                   <li>
-                                    <a href="#">
-                                        <img src="images/mainrow2_list_img.jpg" alt="리스트이미지">
-                                        <!--리스트정보-->
-                                        <div class="listText">
-                                            벽면재&gt;목질벽면재&gt;대리석
-                                            <h4>폰티아</h4>
-                                        </div>
-                                        <!--리스트정보-->
-                                    </a>
-                                   </li>
-                                   <li>
-                                    <a href="#">
-                                        <img src="images/mainrow2_list_img.jpg" alt="리스트이미지">
-                                        <!--리스트정보-->
-                                        <div class="listText">
-                                            벽면재&gt;목질벽면재&gt;대리석
-                                            <h4>폰티아</h4>
-                                        </div>
-                                        <!--리스트정보-->
-                                    </a>
-                                   </li>
-                                   <li>
-                                    <a href="#">
-                                        <img src="images/mainrow2_list_img.jpg" alt="리스트이미지">
-                                        <!--리스트정보-->
-                                        <div class="listText">
-                                            벽면재&gt;목질벽면재&gt;대리석
-                                            <h4>폰티아</h4>
-                                        </div>
-                                        <!--리스트정보-->
-                                    </a>
-                                   </li>
-                                   <li>
-                                    <a href="#">
-                                        <img src="images/mainrow2_list_img.jpg" alt="리스트이미지">
-                                        <!--리스트정보-->
-                                        <div class="listText">
-                                            벽면재&gt;목질벽면재&gt;대리석
-                                            <h4>폰티아</h4>
-                                        </div>
-                                        <!--리스트정보-->
-                                    </a>
-                                   </li>
-                                </ul>
-                            </div>
-                            <!--매거진오른쪽-->
-                        </div>
-                        <!--한솔매거진컨텐츠-->
-                    </div>
-                </div>
-                <!--메인컨텐츠02-->
-                
-                <!--메인컨텐츠03-->
-            <div class="mainCon03 inner cf">
-                <!--테마갤러리-->
-                <div class="con03Menu01">
-                    <a href="#">
-                        <h3>테마 갤러리</h3>
-                        <p>한솔홈데코 제품으로 꾸며진<br>
-                           다양한 공간을 체험해보세요</p>
-                    </a>
-                </div>
-                <!--테마갤러리-->
-                
-                <!--블로그-->
-                <div class="con03Menu02">
-                    <a href="#">
-                        <h3>블로그</h3>
-                        <p>한솔홈데코 제품으로 꾸며진<br>
-                           다양한 공간을 체험해보세요</p>
-                    </a>
-                </div>
-                <!--블로그-->
-                
-                <!--대리점 찾기-->
-                <div class="con03Menu03">
-                    <a href="#">
-                        <h3>대리점 찾기</h3>
-                        <p>한솔홈데코 제품으로 꾸며진<br>
-                           다양한 공간을 체험해보세요</p>
-                    </a>
-                </div>
-                <!--대리점 찾기-->
-                
-                <!--제품찾기-->
-                <div class="con03Search">
-                    <h3>제품 찾기</h3>
-                    <form>
-                        <select>
-                            <option>제품 전체 검색</option>
-                        </select>
-                        <input type="text" placeholder="마우스로 입력하세요">
-                        <button>검색하기</button>
-                    </form>
-                </div>
-                <!--제품찾기--> 
-                
-                <!--모바일 제품찾기-->
-                <div class="mcon03Search">
-                    <h3>제품 찾기</h3>
-                </div>
-                <!--모바일 제품찾기-->
+            </nav>
+            <div 
+                class="header__nav__mobile" 
+                id="headerToggle" 
+                aria-controls="primary-menu" 
+                aria-expanded="false" 
+                role="button"
+                tabindex="0"
+            >
+                <span></span>
             </div>
-           <!--메인컨텐츠03-->
-           
-           <!--메인컨텐츠04-->
-            <div class="mainCon04 inner cf">
-               <!--공지사항-->
-               <div class="con04Box notice">
-                   <!--타이틀-->
-                   <div class="con04Tit">
-                       <h3>공지</h3>
-                       <div class="plusBtn">
-                           <a href="#">플러스버튼</a>
-                       </div>
-                   </div>
-                   <!--타이틀-->
-                   
-                   <!--공지사항리스트-->
-                   <ul class="noticeList cf">
-                       <li>
-                           <a href="#">
-                               <p>
-                                   한솔홈데코 홈페이지가 리뉴얼 되었습니다.
-                               </p>
-                               <span>2020-12-07</span>
-                               <p>이벤트 응모 블로그 바로가기</p>
-                           </a>
-                       </li>
-                       <li>
-                           <a href="#">
-                               <p>
-                                   스토리보드 PET(영상)
-                               </p>
-                               <span>2020-12-07</span>
-                               <p>가구의 품격을 높이는 한솔 스토리보드PET의 공지사항 영역입니다.</p>
-                           </a>
-                       </li>
-                   </ul>
-                   <!--공지사항리스트-->
-               </div>
-               <!--공지사항-->
-               
-               <!--뉴스-->
-               <div class="con04Box">
-                   <!--타이틀-->
-                   <div class="con04Tit">
-                       <h3>뉴스</h3>
-                       <div class="plusBtn">
-                           <a href="#">플러스버튼</a>
-                       </div>
-                   </div>
-                   <!--타이틀-->
-                   
-                   <!--뉴스리스트-->
-                   <ul class="newsList">
-                       <li>
-                           <a href="#">
-                              <p>
-                                  한솔홈데코, 다양한 인테리어 다양한 인테리어 시공사례 보여주는 새로운 홈페이지입니다.</p>
-                               <span>2020-12-07</span>
-                           </a>
-                       </li>
-                       <li>
-                           <a href="#">
-                              <p>
-                                  한솔홈데코, 다양한 인테리어 다양한 인테리어 시공사례 보여주는 새로운 홈페이지입니다.</p>
-                               <span>2020-12-07</span>
-                           </a>
-                       </li>
-                       <li>
-                           <a href="#">
-                              <p>
-                                  한솔홈데코, 다양한 인테리어 다양한 인테리어 시공사례 보여주는 새로운 홈페이지입니다.</p>
-                               <span>2020-12-07</span>
-                           </a>
-                       </li>
-                   </ul>
-                   <!--뉴스리스트-->
-               </div>
-               <!--뉴스-->
-            </div>
-           <!--메인컨텐츠04-->
-           
-           <!--모바일 메인컨텐츠04-->
-           <div class="mMaincon04">
-             <!--모바일공지-->
-              <dl>
-                   <dt>공지</dt>
-                   <dd><a href="#">한솔 홈데코의 스토리보드 및 공지사항이 업데이트 되었습니다. 많은 이용 부탁드립니다.</a>
-                   </dd>
-              </dl>
-             <!--모바일공지-->
-             
-             <!--모바일뉴스-->
-              <dl>
-                   <dt>뉴스</dt>
-                   <dd><a href="#">한솔 홈데코에서 알려드리는 뉴스 영역입니다. 많은 이용 부탁드립니다.</a>
-                   </dd>
-              </dl>
-             <!--모바일뉴스-->
-           </div>
-           <!--모바일 메인컨텐츠04-->
-           
-           <!--메인컨텐츠05-->
-           <div class="mainCon05">
-               <ul class="con05List inner cf">
-                  <!--가구컴포넌트-->
-                   <li class="con05Menu01">
-                       <a href="#">
-                           <h3>가구 컴포넌트</h3>
-                           <p>소재부터 가구 도어까지</p>
-                       </a>
-                   </li>
-                   <!--가구컴포넌트-->
-                   <!--인테리어자재-->
-                   <li class="con05Menu02">
-                       <a href="#">
-                           <h3>인테리어 자재</h3>
-                           <p>행복한 공간을 위한 토탈 인테리어</p>
-                       </a>
-                   </li>
-                   <!--인테리어자재-->
-                   <!--연관사업-->
-                   <li class="con05Menu03">
-                       <a href="#">
-                           <h3>연관 사업</h3>
-                           <p>자연과 인간의 조화를 이루는 한솔</p>
-                       </a>
-                   </li>
-                   <!--연관사업-->
-                   <!--고객상담-->
-                   <li class="con05Menu04">
-                       <a href="#">
-                           <h3>고객 상담</h3>
-                           <p>무엇이든 물어보세요</p>
-                       </a>
-                   </li>
-                   <!--고객상담-->
-               </ul>
-           </div>
-           <!--메인컨텐츠05-->
-            </div>
-            <!--컨테이너-->
-            
-            <!--푸터-->
-            <footer id="footer">
-               <!--푸터탑-->
-                <div class="fTop">
-                   <div class="inner cf">
-                       <!--푸터메뉴-->
-                       <ul class="fMenu webFmenu">
-                           <li><a href="#">고객상담</a></li>
-                           <li><a href="#">개인정보처리방침</a></li>
-                           <li><a href="#">윤리경영</a></li>
-                       </ul>
-                       
-                       <ul class="fMenu">
-                           <li><a href="#">E_MARKET</a></li>
-                           <li><a href="#">E-purchase</a></li>
-                       </ul>
-                       <!--푸터메뉴-->
-                       
-                       <!--cs패밀리-->
-                       <div class="csFamily">
-                           <!--cs센터-->
-                           <div class="csBox">
-                               <span>고객상담</span>
-                               <span class="num">080-777-2299</span>
-                           </div>
-                           <!--cs센터-->
-                           
-                           <!--패밀리사이트-->
-                           <div class="familyBox">FAMILIY SITE</div>
-                           <!--패밀리사이트-->
-                       </div>
-                       <!--cs패밀리-->
-                   </div> 
-                </div>
-               <!--푸터탑-->
-               
-               <!--푸터바텀-->
-               <div class="fBottom">
-                   <!--푸터로고-->
-                   <div class="fLogo">푸터로고영역</div>
-                   <!--푸터로고-->
-                   
-                   <!--푸터정보-->
-                   <p class="fInfo">
-                       <span>서울동작구 보라매로 5길 12(신대방동,전문건설회관 27층)</span>
-                       <span>Tel 080-777-2299</span>
-                       <span>개인정보취급관리자 서범석</span>
-                       <span>E-mail homedeco@hansol.com</span>
-                   </p>
-                   <p>Copyright HANSOLHOMEDECO All rights reserved.</p>
-                   <!--푸터정보-->
-               </div>
-               <!--푸터바텀-->
-            </footer>
-            <!--푸터-->
         </div>
-        <!--전체-->
-    </body>
+    </header>
+    <!-- //header -->
+    
+    <main id="main" role="main">
+        <section id="intro">
+            <div class="intro__inner">
+                <h2 class="intro__title">
+                    portpolio
+                </h2>
+                <div class="intro__lines" aria-hidden="true">
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                </div>
+                <div class="intro__text">
+                    <div class="text">
+                        <div>Where there</div>
+                        <div>is a will</div>
+                        <div>there is a way</div>
+                    </div>
+                    <div class="img">
+                        <img src="img/about.jpg" alt="어바웃미">
+                    </div>
+                </div>
+                <div class="intro__lines bottom" aria-hidden="true">
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                </div>
+            </div>
+        </section>
+        <!-- //intro -->
+
+        <section id="skill">
+            <div class="slkll__inner">
+                <h2 class="skill__title">
+                    ABOUT <em>나의 정보</em>
+                </h2>
+                <div class="skill__desc">
+                    <div>
+                        <span>1.</span>
+                        <h3>My Name</h3>
+                        <p>강모래 (KANG MO RAE)<br>
+                            1988. 8. 27
+                        </p>
+                    </div>
+                    <div>
+                        <span>2.</span>
+                        <h3>(주)리컨벤션</h3>
+                        <ul>
+                            <li>2024. 01 ~ 2025. 02</li>
+                            <li>행사, 전시기획 회사</li>
+                            <li>홈페이지 UX/UI 디자인, 구축, 코딩</li>
+                            <li>html, asp 활용</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <span>3.</span>
+                        <h3>(주)더썸 비스타</h3>
+                        <ul>
+                            <li>2021. 03 ~ 2022. 10</li>
+                            <li>웹에이전시</li>
+                            <li>홈페이지 UX/UI 디자인, 구축, 코딩</li>
+                            <li>그누보드, php 활용</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+         <!-- //skill  -->
+
+        <section id="site">
+            <div class="site__inner">
+                <h2 class="site__title">
+                    Site Design · Coding <em>나의 작업물</em>
+                </h2>
+                <div class="site__wrap">
+                    <article class="site__item s1">
+                        <span class="num">1.</span>
+                        <img src="img/bipc.jpg" class="title_img">
+                        <div class="text">
+                            <a href="bipc.html" target="_blank">
+                                <div>The 12th Busan International</div>
+                                <div>Port Conference</div>
+                                <div>BIPC 2024</div>
+                            </a>
+                        </div>
+                        <h3 class="title">
+                            반응형 웹사이트
+                        </h3>
+                        <div class="btn">
+                            <a href="bipc.html" target="_blank">More View</a>
+                        </div>
+                        <div class="info">
+                            <span>Design · Coding</span>
+                            <span>production period : 2024. 05 ~ 2024. 06</span>
+                            <span>use stack : Photoshop, Illustlation, html5, css3, js(GSAP)</span>
+                        </div>
+                    </article>
+                    <article class="site__item s2">
+                        <span class="num">2.</span>
+                        <img src="img/baco.jpg" class="title_img">
+                        <div class="text">
+                            <a href="baco.html" target="_blank">
+                                <div>Busan IAMAS-IACS-IAPSO</div>
+                                <div>Joint Assembly 2025</div>
+                                <div>BACO 2025</div>
+                            </a>
+                        </div>
+                        <h3 class="title">
+                            반응형 웹사이트
+                        </h3>
+                        <div class="btn">
+                            <a href="baco.html" target="_blank">More View</a>
+                        </div>
+                        <div class="info">
+                            <span>Design · Coding</span>
+                            <span>production period : 2024. 10 ~ 2024. 11</span>
+                            <span>use stack : Photoshop, Illustlation, html5, css3, js(GSAP)</span>
+                        </div>
+                    </article>
+                    <article class="site__item s3">
+                        <span class="num">3.</span>
+                        <img src="img/pianc.jpg" class="title_img">
+                        <div class="text">
+                            <a href="pianc.html" target="_blank">
+                                <div>PIANC AGA</div>
+                                <div>BUSAN 2025</div>
+                            </a>
+                        </div>
+                        <h3 class="title">
+                            반응형 웹사이트
+                        </h3>
+                        <div class="btn">
+                            <a href="pianc.html" target="_blank">More View</a>
+                        </div>
+                        <div class="info">
+                            <span>Design · Coding</span>
+                            <span>production period : 2024. 11 ~ 2024. 12</span>
+                            <span>use stack : Photoshop, Illustlation, html5, css3, js(GSAP)</span>
+                        </div>
+                    </article>
+                    <article class="site__item s4">
+                        <span class="num">4.</span>
+                        <img src="img/eworld.jpg" class="title_img">
+                        <div class="text">
+                            <a href="eworld.html" target="_blank">
+                                <div>eWorld Editing</div>
+                            </a>
+                        </div>
+                        <h3 class="title">
+                            반응형 웹사이트 - 메인화면 리뉴얼
+                        </h3>
+                        <div class="btn">
+                            <a href="eworld.html" target="_blank">More View</a>
+                        </div>
+                        <div class="info">
+                            <span>Design · Coding</span>
+                            <span>production period : 2024. 12</span>
+                            <span>use stack : Photoshop, Illustlation, html5, css3, js</span>
+                        </div>
+                    </article>
+                    <article class="site__item s5">
+                        <span class="num">5.</span>
+                        <img src="img/jinsunme.jpg" class="title_img">
+                        <div class="text">
+                            <a href="jinsunme.html" target="_blank">
+                                <div>JINSUNME</div>
+                                <div>Packed Lunch</div>
+                            </a>
+                        </div>
+                        <h3 class="title">
+                            반응형 웹사이트
+                        </h3>
+                        <div class="btn">
+                            <a href="jinsunme.html" target="_blank">More View</a>
+                        </div>
+                        <div class="info">
+                            <span>Design · Coding</span>
+                            <span>production period : 2021. 07 ~ 2021. 08</span>
+                            <span>use stack : Photoshop, Illustlation, html5, css3, js</span>
+                        </div>
+                    </article>
+                    <article class="site__item s6">
+                        <span class="num">6.</span>
+                        <img src="img/gold.jpg" class="title_img">
+                        <div class="text">
+                            <a href="kgold.html" target="_blank">
+                                <div>Korea Public</div>
+                                <div>Gold Exchange</div>
+                            </a>
+                        </div>
+                        <h3 class="title">
+                            반응형 쇼핑몰
+                        </h3>
+                        <div class="btn">
+                            <a href="kgold.html" target="_blank">More View</a>
+                        </div>
+                        <div class="info">
+                            <span>Design · Coding</span>
+                            <span>production period : 2021. 06 ~ 2021. 07</span>
+                            <span>use stack : Photoshop, Illustlation, html5, css3, js</span>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <!-- //site -->
+
+        <section id="port">
+            <div class="port__inner">
+                <h2 class="port__title">
+                    web portfolio <em>웹진 · 웹배너 작업물</em>
+                </h2>
+                <div class="port__wrap">
+                    <article class="port__item p1">
+                        <span class="num">01.</span>
+                        <a href="kmou.html" target="_blank" class="img">
+                            <img src="img/banner1.jpg" alt="" />
+                        </a>
+                        <h3 class="title">한국해양대학교 KMOU 웹진</h3>
+                        <p class="desc">
+                            한국해양대학교 KMOU 웹진 작업입니다.<br>
+                            대학생 입학 모집을 위한 홍보용 웹진이라서<br>
+                            참고서 같은 분위기의 느낌으로 만들었습니다.
+                        </p>
+                        <a href="kmou.html" target="_blank" class="site">More View</a>
+                    </article>
+                    
+                    <article class="port__item p2">
+                        <span class="num">02.</span>
+                        <a href="kmou2.html" target="_blank" class="img">
+                            <img src="img/banner2.jpg" alt="" />
+                        </a>
+                        <h3 class="title">한국해양대학교 국제교류본부 웹진</h3>
+                        <p class="desc">
+                            한국해양대학교 국제교류본부 웹진 작업입니다.<br>
+                            학생들의 국제교류 활동 홍보용이라서<br>
+                            앨범같은 느낌으로 제작하였습니다.
+                        </p>
+                        <a href="kmou2.html" target="_blank" class="site">More View</a>
+                    </article>
+                    <article class="port__item p3">
+                        <span class="num">03.</span>
+                        <a href="banner3.html" target="_blank" class="img">
+                            <img src="img/banner3.jpg" alt="" />
+                        </a>
+                        <h3 class="title">한국해양대학교 새해인사 배너</h3>
+                        <p class="desc">
+                            한국해양대학교 새해인사 배너입니다.<br>
+                            대학교 대표 캐릭터인 '해양이'를 활용하여 뱀띠 일러스트와<br>
+                            최대한 어울리도록 제작하였습니다.
+                        </p>
+                        <a href="banner3.html" target="_blank" class="site">More View</a>
+                    </article>
+                    <article class="port__item p4">
+                        <span class="num">04.</span>
+                        <a href="bife_banner.html" target="_blank" class="img">
+                            <img src="img/banner5.jpg" alt="" />
+                        </a>
+                        <h3 class="title">부산국제음식박람회 상세페이지</h3>
+                        <p class="desc">
+                            부산국제음식박람회 홈페이지에 업로드된 상세페이지입니다.<br>
+                            참여 셰프들 소개페이지를 마치 메뉴판을 보는것처럼<br>
+                            디자인을 만들어봤습니다.
+                        </p>
+                        <a href="bife_banner.html" target="_blank" class="site">More View</a>
+                    </article>
+                    <article class="port__item p5">
+                        <span class="num">05.</span>
+                        <a href="baco_banner.html" target="_blank" class="img">
+                            <img src="img/baco_popup.png" alt="" />
+                        </a>
+                        <h3 class="title">BACO 2025 팝업배너</h3>
+                        <p class="desc">
+                            BACO 2025 홈페이지에 등록을 유도하는 팝업 배너입니다.<br>
+                            광안대교가 주된 행사의 상징이라서<br>
+                            일러스트 느낌으로 제작하였습니다.
+                        </p>
+                        <a href="baco_banner.html" target="_blank" class="site">More View</a>
+                    </article>
+                    <article class="port__item p6">
+                        <span class="num">06.</span>
+                        <a href="bipc_banner.html" target="_blank" class="img">
+                            <img src="img/bipc_popup.jpg" alt="" />
+                        </a>
+                        <h3 class="title">BIPC 2024 팝업배너</h3>
+                        <p class="desc">
+                            BIPC 2024 행사가 끝난 후<br>
+                            연사들의 자료모음을 다운받을 수 있도록<br>
+                            링크가 첨부된 팝업 배너입니다.<br>
+                            게임 아이템 화면처럼 디자인을 만들어봤습니다.
+                        </p>
+                        <a href="bipc_banner.html" target="_blank" class="site">More View</a>
+                    </article>
+                    <article class="port__item p7">
+                        <span class="num">07.</span>
+                        <a href="fe_banner.html" target="_blank" class="img">
+                            <img src="img/banner4.jpg" alt="" />
+                        </a>
+                        <h3 class="title">페스티벌 시월 팝업배너</h3>
+                        <p class="desc">
+                            페스티벌 시월 행사와 연계된<br>
+                            클럽 디 오아시스 입장 할인에 관한 팝업 배너입니다.<br>
+                            색상을 최소 2개만 사용하여 깔끔한 느낌을 나타내고자 했습니다.
+                        </p>
+                        <a href="fe_banner.html" target="_blank" class="site">More View</a>
+                    </article>
+                    
+                </div>
+            </div>
+        </section>
+        <!-- //port -->
+
+        <section id="contact">
+            <div class="contact__inner">
+                <h2 class="contact__title">Contact</h2>
+                <div class="contact__lines top" aria-hidden="true">
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                </div>
+                <div class="contact__text">
+                    <div class="text">
+                        <div>
+                            <a href="tel:01022761780" target="_blank">010-2276-1780</a>
+                        </div>
+                        <div>
+                            <a href="mailto:foath@naver.com" target="_blank">E-mail : foath@naver.com</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact__lines" aria-hidden="true">
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                </div>
+            </div>
+        </section>
+        <!-- //contact -->
+    </main>
+    <!-- //main -->
+
+    
+    <!-- Script JS-->
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/js/swiper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.1/ScrollToPlugin.min.js"></script>
+    <script src="https://unpkg.com/@studio-freight/lenis@1.0.32/dist/lenis.min.js"></script>
+    <script src="js/main.js"></script>
+    
+    <script>
+    $("#fade").modal({
+      fadeDuration: 100
+    });
+    </script>
+   
+</body>
 </html>
