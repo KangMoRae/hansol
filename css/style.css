@@ -363,7 +363,7 @@ main > div > a:hover {
 }
 
 .modal-content img{width:100%;}
-.img_auto .modal-content img{width:auto;}
+.img_auto .modal-content img{_width:auto;}
 .modal-content.no_100 img{width:auto;}
 .modal-content.no_100 .k_gold{width:100%;}
 
@@ -371,12 +371,12 @@ main > div > a:hover {
 
 @media screen and (max-width:768px) {
     
-    
     .modal-content{width:80%;padding:20px;margin: 15% auto;}
     .modal-content img{width:100%;}
     .modal-content.no_100 img{width:100%;}
     .con00Img .close{font-size:30px;}
     body{overflow-x: hidden;}
+    swiper{overflow-x: hidden;}
     
     
 }
