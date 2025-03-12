@@ -1900,7 +1900,7 @@ li.category.isActive {
     
     .mainCon00{padding:0 20px;}
     .mainCon00 h2{font-size:40px;}
-    .con00Img{margin-left:0;display: flex;flex-wrap: wrap;justify-content: space-between;}
+    .con00Img{margin-left:0;display: flex;flex-wrap: wrap;justify-content: space-around;}
     .con00Img li{width:150px;height: 150px;margin-right:0;}
     .con00Img p{font-size:16px;padding-top: 52px;}
     .con00Img span{font-size:14px;}
